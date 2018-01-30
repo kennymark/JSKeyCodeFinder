@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.nav {
+  height: 50px;
+  background: #000;
+  width: 100%;
+  padding-top: 40px;
+  P {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+.box {
+  width: 30rem;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ececec;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 4%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .07);
+}
+
+.keycode {
+  font-size: 250px;
+}
+
+.key {
+  margin: 30px auto;
+  border-radius: 5px;
+  height: 40px;
+  background: #eaeaea;
+  padding: 9px 18px;
+  font-size: 25px;
+  width: 25%;
+  text-align: center;
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.20);
+  color: #717171;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  z-index: -4;
+  padding: 10px 0;
+  background: #eaeaea;
+  transition: all .3s ease-in;
+  p {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    color: rgba(0, 0, 0, 0.49);
+    a {
+      color: #607D8B;
+      text-decoration: none;
+    }
+  }
+  i {
+    position: relative;
+    top: 6px;
+    color: red;
+  }
+}
+
+.anim {
+  font-size: 20px;
+}
