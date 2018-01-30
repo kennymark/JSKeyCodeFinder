@@ -4,7 +4,7 @@ The JS key code finder is a simple tool that detect which key has been pressed a
 
 Download the file by copy the command below in your command-line. Please ensure you have git installed
 
-    git clone [https://github.com/kennymark/JSKeyCodeFinder.git](https://github.com/kennymark/JSKeyCodeFinder.git)
+    git clone https://github.com/kennymark/JSKeyCodeFinder.git
 
 # Screenshot
 
