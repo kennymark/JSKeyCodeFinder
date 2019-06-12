@@ -1,3 +1,5 @@
+#JS KeyCode Finder
+
 The JS key code finder is a simple tool that detect which key has been pressed and then gives you its key code number. This is useful for applications that need to know which keys have been pressed to handle actions on their website
 
 # Usage
